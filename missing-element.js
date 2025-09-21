@@ -37,7 +37,7 @@ function onPageLoad()
         newItemInput.setAttribute("type", "text");        
         newItemInput.setAttribute("name", "item"+i);
         newItemInput.setAttribute("id", "item"+i);
-        newItemInput.setAttribute("style", "min-width: 300px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:16pt;");
+        newItemInput.setAttribute("style", "max-width: 80px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:16pt;");
         var paragraph = document.createElement("p");
         paragraph.appendChild(newItemLabel1);
         paragraph.appendChild(newItemInput);
